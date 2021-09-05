@@ -7,7 +7,17 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "cropperjs": "^1.5.12",
+    "dayjs": "^1.10.6",
+    "default-passive-events": "^2.0.0",
+    "json-bigint": "^1.0.0",
+    "lodash": "^4.17.15",
+    "mockjs": "^1.1.0",
+    "socket.io-client": "^2.3.0",
+    "vant": "^3.0.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -19,6 +29,8 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "less": "^3.0.4",
-    "less-loader": "^5.0.0"
+    "less-loader": "^5.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-pxtorem": "^5.1.1"
   }
 }
